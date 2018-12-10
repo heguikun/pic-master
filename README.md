@@ -1,8 +1,12 @@
 添加maven
+
 allprojects {
+
 	repositories {
+	
 	   maven { url 'https://jitpack.io' }
 	}
+	
 }
   
   build引用依赖
@@ -13,6 +17,7 @@ allprojects {
 
 
   activity调用
+  
  startActivityForResult(
                 IMGGalleryActivity.newIntent(this, IMGChooseMode.Builder()
                         .setSingleChoose(true)
