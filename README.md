@@ -12,6 +12,7 @@ allprojects {
 }
   
   build引用依赖
+  
   dependencies {
 	       
 	       implementation 'com.github.heguikun:pic-master:Tag'
